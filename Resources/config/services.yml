@@ -1,0 +1,5 @@
+services:
+    kmj.aws.s3:
+        class: Aws\S3\S3Client
+        arguments:
+            - { version: %kmj_aws.s3.version%, region: %kmj_aws.s3.region%, credentials: { key: %kmj_aws.key%, secret: %kmj_aws.secret%}}
