@@ -1,7 +1,7 @@
 {
     "name": "kmj/awsbundle",
     "type": "symfony-bundle",
-    "description": "Symfony2 Bundle that handles basic config management ",
+    "description": "Symfony2 Bundle that handles Amazon Web Services integration",
     "keywords": ["KMJ", "aws"],
     "homepage": "http://github.com/Demoboy/AwsBundle",
     "license": "MIT",
@@ -14,11 +14,6 @@
     "require": {
         "php": ">=5.5.0",
         "aws/aws-sdk-php": "^3.10"
-    },
-    "require-dev": {
-        "h4cc/alice-fixtures-bundle": "0.5.x",
-        "matthiasnoback/symfony-config-test": "0.4.*",
-        "satooshi/php-coveralls": "0.6.*"
     },
     "autoload": {
         "psr-0": {
