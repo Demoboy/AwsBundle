@@ -16,10 +16,8 @@
         "aws/aws-sdk-php": "^3.10"
     },
     "autoload": {
-        "psr-0": {
-            "KMJ\\AwsBundle": ""
+        "psr-4": {
+            "KMJ\\AwsBundle\\": ""
         }
-    },
-    "minimum-stability": "stable",
-    "target-dir": "KMJ/AwsBundle"
+    }
 }
